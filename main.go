@@ -26,9 +26,8 @@ var dnsForwarders = []string{
 // Key adalah nama domain (lengkap dengan titik di akhir), value adalah alamat IP.
 // HANYA domain yang ada di map ini yang akan direspon secara lokal.
 var localRecords = map[string]string{
-	"pacebook.com.":  "10.180.53.85",
-	"klikbeca.com.":  "10.180.53.227",
-	"login.hotspot.": "10.180.52.198",
+	"frontend.local.": "127.0.0.1",
+	"backend.local.":  "127.0.0.1",
 }
 
 // --- AKHIR KONFIGURASI ---
